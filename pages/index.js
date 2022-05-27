@@ -37,7 +37,7 @@ function Home(){
                 <div class='imgHome'></div>
                 <div class='sobre'>
                     <div class="imgSobre">
-                        <img src='/public/img/equipe.jpeg' width='300px' height='250px' />
+                        <img src='/images/equipe.jpg' class='imagSobre'/>
                     </div>
                     <div class="descSobre">
                         <h2 class="h2s">Sobre Nós</h2>
