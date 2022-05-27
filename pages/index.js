@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function Home(){
     return (
@@ -36,6 +37,7 @@ function Home(){
                 <div class='imgHome'></div>
                 <div class='sobre'>
                     <div class="imgSobre">
+                        <img src='/public/img/equipe.jpeg' width='300px' height='250px' />
                     </div>
                     <div class="descSobre">
                         <h2 class="h2s">Sobre Nós</h2>
