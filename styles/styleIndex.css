@@ -8,7 +8,6 @@
     width: 100%;
     height: 50px;
     background-color: rgb(233, 27, 47);
-    color: white;
     display: flex;
     align-items: center;
     z-index: 999;
@@ -40,8 +39,8 @@ nav a{
 /*Background*/
 .Corpo{
     background-color: rgb(34, 36, 40);
-    max-width: 100%;
-    height: 1920px;
+    width: 100%;
+    height: 1280px;
 }
 
 /*Imagem Principal*/
@@ -106,7 +105,7 @@ nav a{
         text-align: justify;
     }
 
-    .palavraGrande{
+    .palavraGrande1{
         font-size: 96px;
         font-weight: 800;
         color: rgb(34, 36, 40);
@@ -150,12 +149,17 @@ nav a{
         text-align: justify;
     }
 
+    .descFeatures{
+        z-index: 9;
+    }
+
     .imgFeatures{
         width: 400px;
         height: 400px;
         background-color: white;
         margin: auto 0px;
         border-radius: 10px;
+        z-index: 9;
     }
 
     .linhaF2{
@@ -167,3 +171,90 @@ nav a{
         margin-top: 40px;
         border-radius: 3px 0px 3px 0px;
     }
+
+        /*Caixa de Features*/
+        .asFeatures{
+            width: 50%;
+            float: left;
+        }
+
+        .divF{
+            margin-top: 20px;
+            height: 40px;
+            display: flex;
+        }
+
+        .iconeFeatures{
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: white;
+        }
+
+        .h2F{
+            font-size: 20px;
+            font-weight: 700;
+            margin: 13px 16px;
+        }
+
+        .pf1{
+            width: 230px;
+            margin: 10px 30px 0 0px;
+            text-align: justify;
+        }
+
+        .palavraGrande2{
+            font-size: 90px;
+            font-weight: 800;
+            color: rgb(34, 36, 40);
+            text-shadow: 0px 0px 40px rgb(0, 0, 0);
+            margin-top: -40px;
+            margin-left: -50px;
+        }
+
+/*Rodape*/
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(233, 27, 47);
+    color: white;
+    padding-top: 20px;
+}
+
+.descCabeçalho{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 10px auto;
+}
+
+footer div{
+    width: 33.3%;
+}
+
+.direitosAutorais{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    margin: 10px auto;
+}
+
+footer h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+footer p{
+    margin-bottom: 8px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.unaLogo{
+    display: flex;
+    margin: 0px auto;
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
