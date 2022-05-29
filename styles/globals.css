@@ -300,6 +300,7 @@
         height: 300px;
         color: #000;
         border: 0px;
+        resize: none;
     }
 
     Button{
