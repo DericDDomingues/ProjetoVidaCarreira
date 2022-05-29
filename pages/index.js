@@ -23,19 +23,23 @@ function Home(){
                     <Link href="/enemVestibular">
                         <a>Enem/Vestibular</a>
                     </Link>
-                    <Link href="/referencias">
-                        <a>Referências</a>
-                    </Link>
-                    <Link href="/sugestoes">
-                        <a>Sugestões</a>
-                    </Link>
                     <Link href="/contato">
                         <a>Contato</a>
                     </Link>
                 </div>
             </nav>
             <div>
-                <div class='imgHome'></div>
+                <div class='imgHome'>
+                    <div class='unaLogoU'>
+                        <img src='/images/unaLogo.png' class='UnaUber'/>
+                        <p class='UnaUberP'>U b e r l â n d i a</p>
+                    </div>
+                    <div class='logoGHome'>
+                        <p class='imgHomep1'>NomeProjeto</p>
+                        <p class='imgHomep2'>Para dentro da Universida</p>
+                        <p class='pImgHome'>ENEM/Vestibula - Ensino Superior - Guia</p>
+                    </div>
+                </div>
                 <div class='sobre'>
                     <div class="imgSobre">
                         <img src='/images/equipe.jpg' class='imageS'/>

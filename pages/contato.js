@@ -39,12 +39,6 @@ function Contato(){
                     <Link href="/enemVestibular">
                         <a>Enem/Vestibular</a>
                     </Link>
-                    <Link href="/referencias">
-                        <a>Referências</a>
-                    </Link>
-                    <Link href="/sugestoes">
-                        <a>Sugestões</a>
-                    </Link>
                     <Link href="/contato">
                         <a class='paginaAtual'>Contato</a>
                     </Link>

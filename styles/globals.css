@@ -49,6 +49,66 @@
         background-color: white;
         max-width: 100%;
         height: 400px;
+ 
+    }
+
+    .UnaUber{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100px;
+    }
+
+    .UnaUberP{
+        margin-left: 32px;
+        color: rgb(233, 27, 47);
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .logoGHome{
+        margin-top: 80px;
+    }
+
+    .logoGHome1{
+        margin-top: 100px;
+    }
+
+    .imgHomep1{
+        color: rgb(34, 36, 40);
+        text-align: center;
+        font-size: 72px;
+        font-weight: 900;
+    }
+
+    .imgHomep2{
+        color: rgb(34, 36, 40);
+        text-align: center;
+        margin-top: -6px;
+        font-size:40px;
+        font-weight: 200;
+    }
+
+    .imgHomep3{
+        color: rgb(34, 36, 40);
+        text-align: center;
+        font-size:30px;
+        font-weight: 200;
+    }
+
+    .imgHomep4{
+        color: rgb(233, 27, 47);
+        text-align: center;
+        font-size: 72px;
+        font-weight: 900;
+        margin-top: 4px;
+    }
+
+    .pImgHome{
+        color: rgb(34, 36, 40);
+        text-align: center;
+        font-size:16px;
+        font-weight: 300;
+        margin-top: 67px;
     }
 
     /*Corpo*/
@@ -353,4 +413,30 @@
         display: flex;
         width: 500px;
         align-items: center;
+    }
+
+/*Enem*/
+    /*Data Enem*/
+    .dataEnem{
+        display: flex;
+        margin: 20px auto;
+        background-color: rgb(233, 27, 47);
+        padding: 20px;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .dataenem{
+        width: 100%;
+    }
+    
+    .infoData{
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .infoData p{
+        text-align: center;
+        font-size:30px;
+        font-weight: 200;
     }
