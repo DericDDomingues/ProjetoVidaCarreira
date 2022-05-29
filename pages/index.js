@@ -15,7 +15,7 @@ function Home(){
                 </div>
                 <div class='Menu'>
                     <Link href="/">
-                        <a class='paginaAtual'>Inícior</a>
+                        <a class='paginaAtual'>Início</a>
                     </Link>
                     <Link href="/ensinoSuperior">
                         <a>Ensino Superior</a>
@@ -34,7 +34,7 @@ function Home(){
                     </Link>
                 </div>
             </nav>
-            <div class='Corpo'>
+            <div>
                 <div class='imgHome'></div>
                 <div class='sobre'>
                     <div class="imgSobre">

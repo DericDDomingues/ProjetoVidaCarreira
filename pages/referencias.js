@@ -15,7 +15,7 @@ function Referencias(){
                 </div>
                 <div class='Menu'>
                     <Link href="/">
-                        <a>Inícior</a>
+                        <a>Início</a>
                     </Link>
                     <Link href="/ensinoSuperior">
                         <a>Ensino Superior</a>
