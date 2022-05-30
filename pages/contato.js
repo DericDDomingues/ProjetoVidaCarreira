@@ -1,22 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import {useState} from 'react';
 
 function Contato(){
-
-    const [dataForm, definirDataForm] = useState({
-        nome: '',
-        email: '',
-        assunto: '',
-        conteudo: ''
-    });
-
-    const entradaAlteracao = e => definirDataForm({...dataForm, [e.target.name]: e.target.value});
-
-    const enviarContato = async e =>{
-        e.preventDefault(),
-        console.log(dataForm.nome)
-    };
 
     return (
         <div>
@@ -66,12 +51,8 @@ function Contato(){
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudantium ullam voluptas voluptatibus officia minima asperiores numquam veniam consequatur, exercitationem assumenda fugit nostrum?</p>
                 </div>
-                <form onSubmit={enviarContato}>
-                    <input class='inputS' type='text' name='nome' placeholder='Nome completo . . .' onChange={entradaAlteracao} value={dataForm.nome}/>
-                    <input class='inputS' type='email' name='email' placeholder='Email que mais usa . . .' onChange={entradaAlteracao} value={dataForm.email}/>
-                    <input class='inputS' type='text' name='assunto' placeholder='Assunto . . .' onChange={entradaAlteracao} value={dataForm.assunto}/>
-                    <textarea class='inputT' type='text' name='conteudo' placeholder='Mensagem . . .' onChange={entradaAlteracao} value={dataForm.conteudo}/>
-                    <button class='Button' type='submit'>Enviar</button>
+                <form>
+                    <iframe class='formsG' src="https://docs.google.com/forms/d/e/1FAIpQLSf7rWfhIcZO9cOM84m-rkI5JNZGBLxrszEXqzP1UjnghBVJbA/viewform?embedded=true">Carregando…</iframe>
                 </form>
             </div>
             <footer>
@@ -101,3 +82,16 @@ function Contato(){
 }
 
 export default Contato;
+
+/*
+<form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7rWfhIcZO9cOM84m-rkI5JNZGBLxrszEXqzP1UjnghBVJbA/viewform?embedded=true" width="640" height="905" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    <input class='inputS' type='text' name='nome' placeholder='Não esta funcionado ainda'/>
+    <input class='inputS' type='email' name='email' placeholder='Não esta funcionado ainda'/>
+    <input class='inputS' type='text' name='assunto' placeholder='Não esta funcionado ainda'/>
+    <textarea class='inputT' type='text' name='conteudo' placeholder='Não esta funcionado ainda'/>
+    <Link href=''>
+        button class='Button' type='submit'>Clique para ir ao forms e enviar sua mensage!</button>
+    </Link>
+</form>
+*/

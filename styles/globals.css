@@ -329,15 +329,21 @@
     }
 
     /*Formulario*/
+    .formsG{
+        width: 100%;
+        height: 100%;
+
+    }
+
     form{
         padding: 10px 30px 20px 20px;
         margin: 10px auto;
-        background-color: rgb(24, 26, 30);
+        background-color: white;
         width: 50%;
         border-radius: 12px;
         box-shadow: 6px 6px 12px rgb(10, 10, 20);
     }
-    .inputS{
+    /*.inputS{
         border-radius: 10px;
         padding-left: 10px;
         font-size: 14px;
@@ -374,9 +380,10 @@
         font-size: 14px;
         margin: 10px auto;
         display: block;
-        width: 200px;
+        width:350px;
         height: 30px;
     }
+    */
 
     /*Descrição*/
     .descForm{
@@ -439,4 +446,51 @@
         text-align: center;
         font-size:30px;
         font-weight: 200;
+    }
+
+    .linhaEnem{
+        background-color: rgb(233, 27, 47);
+        margin: 6px auto;
+        width: 900px;
+        height: 3px;
+        border-radius: 3px 0px 3px 0px;
+    }
+
+    /*Materia Enem*/
+    .materiaEnem{
+        display: flex;
+        margin: 20px auto;
+        background-color: white;
+        padding:20px 20px;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .h2me{
+        color: rgb(233, 27, 47);
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .categoriasEnem{
+        margin-left:14px;
+    }
+
+    .nomeCategoria{
+        font-weight: 600;
+        color: rgb(34, 36, 40);
+        margin: 20px 0;
+    }
+
+    .nomeMateria{
+        color: rgb(34, 36, 40);
+        margin: 5px 0;
+    }
+
+    .imgME{
+        margin-left: -34px;
+    }
+
+    .imgME2{
+        width: 900px;
     }

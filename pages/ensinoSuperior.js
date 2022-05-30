@@ -39,7 +39,6 @@ function ensinoSuperior(){
                         <p class='imgHomep4'>Ensino Superior</p>
                     </div>
                 </div>
-                
             </div>
             <footer>
                 <div class='descCabeçalho'>
