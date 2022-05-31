@@ -50,7 +50,6 @@ function Home(){
                         <div class="linhaS"></div>
                         <p class="ps">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo nisi quasi, nihil autem eius, animi eveniet vel iusto fuga quidem vero aliquid dolorem, molestias voluptate fugiat expedita placeat. Autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo nisi quasi, nihil autem eius, animi eveniet vel iusto fuga quidem vero aliquid dolorem, molestias voluptate fugiat expedita placeat. Autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo nisi quasi, nihil autem eius, animi eveniet vel iusto fuga quidem vero aliquid dolorem, molestias voluptate fugiat expedita placeat. Autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo nisi quasi, nihil autem eius, animi eveniet vel iusto fuga quidem vero aliquid dolorem, molestias voluptate fugiat expedita placeat. Autem.</p>
                     </div>
-                    <p className='palavraGrande1'>S O B R E</p>
                 </div>
                 <div class='features'>
                     <div class='descFeatures'>
@@ -94,9 +93,7 @@ function Home(){
                         </div>
                     </div>
                     <div class='imgFeatures'>
-                        <div class="linhaF2"></div>
                     </div>
-                    <p className='palavraGrande2'>F E R R A M E N T A S</p>
                 </div>
             </div>
             <footer>
