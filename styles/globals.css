@@ -215,11 +215,22 @@
 
         .imgFeatures{
             width: 400px;
-            height: 400px;
-            background-color: white;
+            height: 450px;
             margin: auto 0px;
             border-radius: 10px;
             z-index: 9;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .imgF{
+            height: 500px;
+            margin-top: 20px;
+            border-radius: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
         }
 
         .linhaF2{
@@ -403,6 +414,7 @@
 
     .divExpli{
         display: flex;
+        margin-left: 50px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -494,6 +506,43 @@
     .imgME2{
         width: 900px;
     }
+
+/*Ensino Superior*/
+.descRS{
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(233, 27, 47);
+    padding: 20px ;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.descRS h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.descRS p{
+    margin: 10px auto;
+}
+
+.sumarioRS{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px ;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sumarioRS h2{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.sumarioRS ul{
+    margin-top: 10px;
+}
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -606,7 +655,6 @@
                 .imgFeatures{
                     width: 450px;
                     height: 400px;
-                    background-color: white;
                     margin: 20px 30px;
                     border-radius: 10px;
                     z-index: 9;
@@ -785,13 +833,156 @@
 
     /*EnsinoSuperior*/
         /*ComputadorTP*/
+        @media screen and (max-width:1497px) {
+
+        }
+
         /*Tablet*/
-        /*Celular*/
+        @media screen and (max-width:768px) {
+
+        }
     /*Enem/Vestibular*/
         /*ComputadorTP*/
+        @media screen and (max-width:1497px) {
+            .imgME{
+                margin-left: -4px;
+                width: 750px;
+            }
+        
+            .imgME2{
+                margin-left: -30px;
+                width: 760px;
+            }
+
+            .imgMateria{
+                width: 720px;
+            }
+        }
+
         /*Tablet*/
-        /*Celular*/
+        @media screen and (max-width:768px) {
+            /*Data Enem*/
+                .dataEnem{
+                    display: flex;
+                    margin: 20px auto;
+                    background-color: rgb(233, 27, 47);
+                    padding: 20px;
+                    width: 90%;
+                    border-radius: 10px;
+                }
+
+                .dataenem{
+                    width: 100%;
+                }
+                
+                .infoData{
+                    margin: 20px auto;
+                    width: 90%;
+                }
+
+                .infoData p{
+                    text-align: center;
+                    font-size:30px;
+                    font-weight: 200;
+                }
+
+                .linhaEnem{
+                    background-color: rgb(233, 27, 47);
+                    margin: 6px auto;
+                    width: 900px;
+                    height: 3px;
+                    border-radius: 3px 0px 3px 0px;
+                }
+
+                /*Materia Enem*/
+                .materiaEnem{
+                    display: flex;
+                    margin: 20px auto;
+                    background-color: white;
+                    padding:20px 20px;
+                    width: 90%;
+                    border-radius: 10px;
+                }
+
+                .h2me{
+                    color: rgb(233, 27, 47);
+                    font-weight: 700;
+                    font-size: 28px;
+                }
+
+                .categoriasEnem{
+                    margin-left:14px;
+                }
+
+                .nomeCategoria{
+                    font-weight: 600;
+                    color: rgb(34, 36, 40);
+                    margin: 20px 0;
+                }
+
+                .nomeMateria{
+                    color: rgb(34, 36, 40);
+                    margin: 5px 0;
+                }
+
+                .imgME{
+                    width: 700px;
+                    margin-left: -34px;
+                }
+
+                .imgME2{
+                    width: 700px;
+                }
+
+                .imgMateria{
+                    width: 650px;
+                }
+        }
+
     /*Contato*/
         /*ComputadorTP*/
+        @media screen and (max-width:1497px) {
+            .formulario{
+                width: 90%;
+                margin: 100px auto;
+            }
+
+            form{
+                padding: 10px 30px 20px 20px;
+                margin: 10px auto;
+                background-color: white;
+                width: 50%;
+                border-radius: 12px;
+                box-shadow: 6px 6px 12px rgb(10, 10, 20);
+            }
+
+            .descForm{
+                width: 45%;
+                margin-top: 50px;
+            }
+            }
+        
         /*Tablet*/
-        /*Celular*/
+        @media screen and (max-width:768px) {
+            .formulario{
+                width: 90%;
+                margin: 100px auto;
+            }
+
+            form{
+                padding: 10px 30px 20px 20px;
+                margin: 10px auto;
+                background-color: white;
+                width: 100%;
+                height: 500px;
+                border-radius: 12px;
+                box-shadow: 6px 6px 12px rgb(10, 10, 20);
+            }
+
+            .descForm{
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+
+    

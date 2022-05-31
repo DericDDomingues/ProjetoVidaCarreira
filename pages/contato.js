@@ -6,12 +6,12 @@ function Contato(){
     return (
         <div>
             <Head>
-                <title>NomeProjeto</title>
+                <title>Contato</title>
             </Head>
             <nav>
                 <div>
                     <Link href="/">
-                        <h1>NomeProjeto</h1>
+                        <h1>Universomos</h1>
                     </Link>
                 </div>
                 <div class='Menu'>
@@ -31,25 +31,21 @@ function Contato(){
             </nav>
             <div class='formulario'>
                 <div class='descForm'>
-                    <h2>NomeProjeto</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudantium ullam voluptas voluptatibus officia minima asperiores numquam veniam consequatur, exercitationem assumenda fugit nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudantium ullam voluptas voluptatibus officia minima asperiores numquam veniam consequatur, exercitationem assumenda fugit nostrum?</p>
+                    <h2>Quer entrar em contato conosco?</h2>
+                    <p>Olá, precisa entrar em contato conosco? Bem, esse campo é totalmente para você, nele você pode nos mandar mensagem sua mensagem sobre dúvidas, reclamações, feedback e muitas outras coisas que desejar, mas pedimos que siga algumas regrinhas ok? Todas as informações contidas nesta mensagem não serão passada a terceiros, somente nós do grupo veremos, então não se preocupe.</p>
                     <div class='divExpli'>
-                        <div class='imgExpli'></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudant.</p>
+                        <p>Coloque seu nome completo para a gente te ajudar e identificar mais fácil.</p>
                     </div>
                     <div class='divExpli'>
-                        <div class='imgExpli'></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudant.</p>
+                        <p>Coloque o e-mail que mais usa para conseguirmos entrar em contato contigo.</p>
                     </div>
                     <div class='divExpli'>
-                        <div class='imgExpli'></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudant.</p>
+                        <p>Coloque o assunto para sabermos de que se trata a mensagem.</p>
                     </div>
                     <div class='divExpli'>
-                        <div class='imgExpli'></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudant.</p>
+                        <p>Não seja mal educado, estamos aqui para ajudar e melhorarmos, mesmo que tenha uma péssima experiência não é necessário xingamento, ofensas ou outros tipos de coisas que seja para diminuir ou ofender alguém.</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi commodi saepe veniam dolore non! Nisi debitis laudantium ullam voluptas voluptatibus officia minima asperiores numquam veniam consequatur, exercitationem assumenda fugit nostrum?</p>
+                    <p>De acordo com essas regras vá em frente e mande sua mensagem que receberemos de braços abertos e faremos o melhor para te ajudar! Obrigado desde já por ter lido.</p>
                 </div>
                 <form>
                     <iframe class='formsG' src="https://docs.google.com/forms/d/e/1FAIpQLSf7rWfhIcZO9cOM84m-rkI5JNZGBLxrszEXqzP1UjnghBVJbA/viewform?embedded=true">Carregando…</iframe>

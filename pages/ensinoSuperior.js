@@ -5,17 +5,17 @@ function ensinoSuperior(){
     return (
         <div>
             <Head>
-                <title>NomeProjeto</title>
+                <title>Ensino Superior</title>
             </Head>
             <nav>
                 <div>
                     <Link href="/">
-                        <h1>NomeProjeto</h1>
+                        <h1>Universomos</h1>
                     </Link>
                 </div>
                 <div class='Menu'>
                     <Link href="/">
-                        <a>Inícior</a>
+                        <a>Início</a>
                     </Link>
                     <Link href="/ensinoSuperior">
                         <a class='paginaAtual'>Ensino Superior</a>
@@ -38,6 +38,23 @@ function ensinoSuperior(){
                         <p class='imgHomep3'>O necessario para viver antes e depois do</p>
                         <p class='imgHomep4'>Ensino Superior</p>
                     </div>
+                </div>
+            </div>
+            <div>
+                <div class='descRS'>
+                    <h2>Relações Socioemocionais</h2>
+                    <p>Uma coisa que nós do ---nome projeto--- entendemos bem, é o quão difícil é esse período entre o ensino médio até o ensino superior (acredite já passamos por isso 😉). Por isso essa parte do nosso projeto é dedicada a ajudar pessoas que estão passando por problemas que, por mais que sejam “pequenos” na visão externa de muita gente, para essas pessoas são na verdade grandes barreiras. Antes de tudo, NÓS NÃO SOMOS ESPECIALISTAS e todos os estudos/pesquisas/notícias que poderemos citar nesta página, foram feitos com muita pesquisa e suas referências poderão ser encontradas no site. Se o seu caso for algo mais extremo como um quadro depressivo ou uma ansiedade que afete seu dia a dia, por favor entre em contato com um terapeuta mais acessível para você, o SUS possui atendimento psicológico gratuito, você precisa apenas do cartão SUS e requisitar o atendimento em uma unidade mais próxima de você (contato na aba “contatos” do site). Nosso objetivo aqui é contar experiências que passamos e que outras pessoas de nossa pesquisa passaram (temos a permissão para isso) com fim de fazer você simpatizar com nosso trabalho e não se sentir sozinho(a).</p>
+                </div>
+                <div class='sumarioRS'>
+                    <h2>Sumário</h2>
+                    <ul>O poder do 'NÃO'</ul>
+                    <ul>Relações acadêmicas</ul>
+                    <ul>Relações familiares</ul>
+                    <ul>Um ambiente nada receptivo</ul>
+                    <ul>Autoconhecimento</ul>
+                    <ul>Solitude e a socialização</ul>
+                    <ul>A faculdade</ul>
+                    <ul>“O que você quer fazer?”</ul>
                 </div>
             </div>
             <footer>
